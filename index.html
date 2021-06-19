@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
     <title>油画商城</title>
 </head>
 <body>
-    
+    <div class="header">
+        <div class="logo">
+            <img src="image/logo.png" alt="#"> 
+        </div>
+        <div class="menu" onmouseleave="show_menu1()"> <!--onmouseleave鼠标离开事件-->
+            <div class="menu_title" onclick="show_menu()"><a href="#">内容分类</a></div>
+            <!-- #当前页面不刷新 -->
+            <ul id="menu_list">
+                <li>现实主义</li>
+                <li>抽象主义</li>
+            </ul>
+        </div>
+        <div class="auth">
+            <ul>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="banner">
+            <img src="image/welcome.png" alt="" class="banner-img">
+        </div>
+    </div>
+
+    <div class=""></div>
 </body>
 </html>

@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    margin: 25px auto;
+    width: 1200px;
+}
+
+.header .menu ul{
+    display: none;
+    list-style: none; /*去除小圆点*/
+    position: absolute;
+    width: 80px;
+    opacity: 0.5; /*半透明效果*/
+    background-color: white;
+}
+
+.header .logo{
+    float: left;
+}
+
+.header .menu{
+    float: left;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+/* 菜单显示折叠，hover（浮动 悬停） */
+/* .header .menu:hover ul{
+    display: block;
+} */
+
+.header .menu ul li{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header .menu .menu_title {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 80px;
+    text-align: center;
+}
+
+/*去除超级链接下划线*/
+a{
+    text-decoration: none;
+}
+
+.header .auth{
+    float:right;
+}
+
+.header .auth ul li{
+    float: left;
+    margin-right: 70px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.content{
+    width: 1200px;
+    margin: 25px auto;
+}
+
+.content .banner .banner-img{
+    margin-top: 20px;
+}
