@@ -86,9 +86,9 @@ a{
     width: 1260px;
 }
 
-.clear{
+/* .clear{
     clear: both;
-}
+} */
 
 .content .img-content .info .img-btn{
     width: 300px;
@@ -147,6 +147,7 @@ body{
     height: 90px;
     line-height: 60px;
     /* overflow: hidden; */
+    clear: both;
 }
 
 .content .page-nav ul{
